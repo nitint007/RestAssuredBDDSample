@@ -28,11 +28,11 @@ formatter.match({
   "location": "e2e.checkAuthenticityOfUser()"
 });
 formatter.result({
-  "duration": 4675153352,
+  "duration": 5044214852,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 12,
+  "line": 11,
   "name": "the Authorized user can Add and Remove a book.",
   "description": "",
   "id": "crud-api-test-for-book-store;the-authorized-user-can-add-and-remove-a-book.",
@@ -40,27 +40,27 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 13,
+  "line": 12,
   "name": "A list of books are available",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 14,
+  "line": 13,
   "name": "I add a book to my reading list",
   "keyword": "When "
 });
 formatter.step({
-  "line": 15,
+  "line": 14,
   "name": "the book is added",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 16,
+  "line": 15,
   "name": "I remove a book from my reading list",
   "keyword": "When "
 });
 formatter.step({
-  "line": 17,
+  "line": 16,
   "name": "the book is removed",
   "keyword": "Then "
 });
@@ -68,22 +68,22 @@ formatter.match({
   "location": "e2e.aListOfBooksAvailable()"
 });
 formatter.result({
-  "duration": 751500194,
+  "duration": 868824346,
   "status": "passed"
 });
 formatter.match({
   "location": "e2e.iAddBookToMyReadingList()"
 });
 formatter.result({
-  "duration": 756711051,
+  "duration": 779658723,
   "status": "passed"
 });
 formatter.match({
   "location": "e2e.ifTheBookIsAdded()"
 });
 formatter.result({
-  "duration": 1201610,
-  "error_message": "java.lang.AssertionError: expected:\u003c201\u003e but was:\u003c400\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat stepdefinitions.e2e.ifTheBookIsAdded(e2e.java:80)\n\tat ✽.Then the book is added(SampleTest.feature:15)\n",
+  "duration": 989793,
+  "error_message": "java.lang.AssertionError: expected:\u003c201\u003e but was:\u003c400\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat stepdefinitions.e2e.ifTheBookIsAdded(e2e.java:80)\n\tat ✽.Then the book is added(SampleTest.feature:14)\n",
   "status": "failed"
 });
 formatter.match({

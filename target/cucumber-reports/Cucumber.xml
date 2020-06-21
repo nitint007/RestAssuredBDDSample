@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="6.184566">
-<testcase classname="CRUD API test for Book Store" name="the Authorized user can Add and Remove a book." time="6.184566">
-<failure message="java.lang.AssertionError: expected:&lt;201&gt; but was:&lt;400&gt;&#10;&#9;at org.junit.Assert.fail(Assert.java:89)&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:835)&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:647)&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:633)&#10;&#9;at stepdefinitions.e2e.ifTheBookIsAdded(e2e.java:80)&#10;&#9;at ✽.Then the book is added(SampleTest.feature:15)&#10;"><![CDATA[Given I am an authorized user...............................................passed
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="6.693688">
+<testcase classname="CRUD API test for Book Store" name="the Authorized user can Add and Remove a book." time="6.693688">
+<failure message="java.lang.AssertionError: expected:&lt;201&gt; but was:&lt;400&gt;&#10;&#9;at org.junit.Assert.fail(Assert.java:89)&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:835)&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:647)&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:633)&#10;&#9;at stepdefinitions.e2e.ifTheBookIsAdded(e2e.java:80)&#10;&#9;at ✽.Then the book is added(SampleTest.feature:14)&#10;"><![CDATA[Given I am an authorized user...............................................passed
 Given A list of books are available.........................................passed
 When I add a book to my reading list........................................passed
 Then the book is added......................................................failed
@@ -15,7 +15,7 @@ java.lang.AssertionError: expected:<201> but was:<400>
 	at org.junit.Assert.assertEquals(Assert.java:647)
 	at org.junit.Assert.assertEquals(Assert.java:633)
 	at stepdefinitions.e2e.ifTheBookIsAdded(e2e.java:80)
-	at ✽.Then the book is added(SampleTest.feature:15)
+	at ✽.Then the book is added(SampleTest.feature:14)
 ]]></failure>
 </testcase>
 </testsuite>
